@@ -4,7 +4,7 @@
 
  
 class Solution:
-    def reverseString(self, s: List[str]) -> None:
+    def reverseString(self, s) -> None:
         y = len(s) - 1
         for i in range(len(s) // 2):
             s[i], s[y] = s[y], s[i]
